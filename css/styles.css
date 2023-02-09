@@ -1,0 +1,307 @@
+/* 
+colors: 
+  body background: #2a2b37
+  card background: #252a41
+  green: #1db489
+  red: #dc414c
+  facebook-color: #198ff5
+  twitter-color: #1ca0f2
+  instagram-color: #fdc468
+  youtube-color: #c4032a
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e202a;
+  /* min-height: 100%; */
+  min-height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+img {
+  max-width: 900px;
+}
+
+.cabecera {
+  width: 870px;
+  height: 160px;
+  background-color: #212237;
+  position: relative;
+  left: 192px;
+}
+
+.titulo,
+.followers {
+
+  color: white;
+  position: absolute;
+  left: 97px;
+}
+
+.titulo {
+  font-size: 25px;
+  top: 20px;
+}
+
+.followers {
+  top: 80px;
+  font-size: 12px;
+}
+
+
+/* ::secc tarjetas grandes:: */
+
+.exercise {
+
+ 
+  /***** preguntar *****/
+
+
+}
+
+.secc-tarjetas {
+  position: relative;
+  left: 278px;
+  top: -10px;
+}
+
+
+.tarjeta {
+
+  width: 152px;
+  height: 175px;
+  background-color: #212237;
+  border-radius: 3px;
+
+}
+
+/* #tarjeta 1 (facebook)# */
+
+.tarjeta-1 {
+  border-top: 2px solid #198ff5;
+  position: absolute;
+  top: -32px;
+}
+
+.contenido-tarjeta-1 {
+  /* position: absolute; */
+  top: 20px;
+  color: white;
+  text-align: center;
+
+}
+
+.header-tarjeta {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  margin-bottom: 50px;
+}
+
+.icon-header {
+  position: absolute;
+  left: 43px;
+  top: 20px;
+
+  width: 15px;
+  height: auto;
+}
+
+.direccion {
+  position: absolute;
+  left: 70px;
+  top: 20px;
+
+
+}
+
+
+
+.n-seguidores {
+
+  margin: 0;
+  font-size: 40px;
+
+}
+
+.seguidores-txt {
+
+  font-size: 12px;
+}
+
+
+
+.var-seguidores {
+  color: #1db489;
+  font-size: 10px;
+}
+
+
+/* #tarjeta 2 (twitter)# */
+.tarjeta-2 {
+  position: absolute;
+  left: 188px;
+  top: -32px;
+  border-top: 2px solid #198ff5;
+}
+
+
+/* #tarjeta 3 (instagram)# */
+
+
+
+.tarjeta-3 {
+  position: absolute;
+  left: 370px;
+  top: -32px;
+  border-top: 2px solid #fdc468;
+}
+
+/* #tarjeta 4 (youtube)# */
+
+.tarjeta-4 {
+  position: absolute;
+  left: 549px;
+  top: -32px;
+  border-top: 2px solid #c4032a;
+}
+
+.var-seguidores-down {
+  color: #c4032a;
+  font-size: 10px;
+
+}
+
+
+/* ::secc pie tarjetas :: */
+
+.secc-pie-tarjetas {
+  position: relative;
+  top: 170px;
+ 
+
+
+
+
+}
+
+.secc-pie-tarjetas-titulo {
+  position: absolute;
+  left: 280px;
+  color: white;
+  font-size: 15px;
+}
+
+
+.pie-tarjeta {
+
+  width: 152px;
+  height: 85px;
+  background-color: #212237;
+
+
+
+
+}
+
+.pie-tarjeta-1 {
+
+  position: absolute;
+  left: 274px;
+  top: 55px;
+  color: white;
+}
+
+.pie-tarjeta-header {
+  font-size: 11px;
+  position: absolute;
+  left: 15px;
+  margin-top: 0;
+
+}
+
+.icon-pie-tarjeta-header {
+  
+  /* margin-left: 55px; */
+  width: 15px;
+  position: absolute;
+  left: 108px;
+  
+}
+
+.pie-tarjeta-footer {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  font-size: 26px;
+
+
+}
+
+.pie-tarjeta-footer-var {
+  position: absolute;
+  left: 20px;
+  color: #229c79;
+  font-size: 10px;
+
+}
+
+.pie-tarjeta-footer-icon{
+  position: absolute;
+  top: 18px;
+    left: 85px;
+
+}
+
+.pie-tarjeta-footer-number {
+  position: absolute;
+  top: 14px;
+  left: 105px;
+  color: #1db489;
+  font-size: 10px;
+}
+
+
+/* #tarjeta 2 (twitter)# */
+
+.pie-tarjeta-2 {
+
+  position: absolute;
+  left: 465px;
+  top: 55px;
+  color: white;
+}
+
+/* #tarjeta 3 (instagram)# */
+
+.pie-tarjeta-3 {
+
+  position: absolute;
+  left: 650px;
+  top: 55px;
+  color: white;
+}
+
+/* #tarjeta 4 (youtube)# */
+
+.pie-tarjeta-4 {
+
+  position: absolute;
+  left: 834px;
+  top: 55px;
+  color: white;
+}
+
+.pie-tarjeta-footer-number-down{
+  position: absolute;
+  top: 14px;
+  left: 112px;
+  color: #c4032a;
+  font-size: 10px;
+
+}
